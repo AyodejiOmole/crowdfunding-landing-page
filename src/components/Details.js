@@ -16,7 +16,7 @@ const Details = () => {
             </span>
             
             {/* lg:border-t-0 md:border-t-0 border-t-2 border-gray-300 */}
-            <span className='py-3  px-2'>
+            <span className='py-3 px-2'>
                 <p className='text-2xl font-extrabold text-black'> 56 </p> 
                 <p className='text-sm text-gray-400'>days left</p>
             </span>
