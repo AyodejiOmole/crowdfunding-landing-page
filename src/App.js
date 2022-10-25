@@ -1,11 +1,13 @@
-import {Logo} from "./assets";
 import React from "react";
+import { Navbar, Mastercraft, Details, About } from "./components";
 
 function App() {
     return (
-      <div className='bg-red-500'>
-        <p className='text-base text-red-800'>This is the beginning of this project!</p>
-
+      <div>
+        <Navbar/>
+        <Mastercraft/>
+        <Details/>
+        <About/>
       </div>
     );
 }
